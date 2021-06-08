@@ -20,8 +20,31 @@ export default function Navigation() {
         );
       })}
 
-      <div className="lg:hidden flex flex-wrap content-center">
-        <button onClick={() => setIsActive(!isActive)}>Menu</button>
+      <div className="flex flex-col justify-between lg:hidden">
+        <div>
+          <button
+            onClick={() => setIsActive(!isActive)}
+            className="focus:outline-none px-4 mt-6 uppercase"
+          >
+            Menu
+          </button>
+          <div className="absolute bg-white flex flex-col left-5 right-0 mt-1 w-auto z-50">
+            {isActive &&
+              pages.map((page) => {
+                return (
+                  <a
+                    key={page}
+                    className="bg-white bottom-0 capitalize focus:outline-none pt-4 pl-4 pr-4 hover:text-gray-500 text-2xl"
+                    onClick={() => {
+                      setIsActive(!isActive);
+                    }}
+                  >
+                    {page}
+                  </a>
+                );
+              })}
+          </div>
+        </div>
       </div>
     </div>
   );
