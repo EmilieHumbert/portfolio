@@ -7,7 +7,7 @@ export default function Navigation() {
   return (
     <div className="flex flex-wrap content-center h-auto justify-between mt-5">
       <div className="flex flex-wrap content-center">
-        <img alt="logo" src="/images/logo.png" className="w-20 " />
+        <img alt="logo" src="/images/logo.png" className="w-12 lg:w-20" />
       </div>
       {pages.map((page, index) => {
         return (
@@ -22,11 +22,11 @@ export default function Navigation() {
         );
       })}
 
-      <div className="flex flex-col justify-between lg:hidden">
+      <div className="flex flex-col content-center justify-between lg:hidden">
         <div>
           <button
             onClick={() => setIsActive(!isActive)}
-            className="focus:outline-none px-4 mt-6 uppercase hover:text-gray-500"
+            className="focus:outline-none px-4 mt-2 content-center uppercase hover:text-gray-500"
           >
             Menu
           </button>
