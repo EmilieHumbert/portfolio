@@ -8,7 +8,7 @@ export default function Contact() {
 
   return (
     <>
-      <h1 className="font-medium mt-24 text-4xl mb-4">Want to get in touch?</h1>
+      <h1 className="font-medium mt-24 text-4xl mb-4">Want t<span className="text-red-900">o</span> get in touch?</h1>
       <p>
         If you'd like to get in touch you can connect with me on{" "}
         <a

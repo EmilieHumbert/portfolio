@@ -15,14 +15,14 @@ export default function Project({ projects }) {
               <h2 className="border-b-2 border-gray-300 font-medium my-2 text-xl ">
                 Brief decription
               </h2>
-              <p className="mb-4">{project.decription}</p>
+              <p className="mb-6">{project.decription}</p>
               <h2 className="border-b-2 border-gray-300 font-medium my-2 text-xl">
-                Tools used and website features
+                Too<span className="text-red-900">l</span>s used and website features
               </h2>
               <div className="grid grid-cols-2">
                 {project.tools.map(([type, tool]) => {
                   return (
-                    <ul key={type} className="leading-relaxed text-xs">
+                    <ul key={type} className="leading-relaxed">
                       <li>
                         <strong>{type}:</strong> {tool}
                       </li>
