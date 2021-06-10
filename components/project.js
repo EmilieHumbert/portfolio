@@ -6,8 +6,9 @@ export default function Project({ projects }) {
       {projects.map((project) => {
         return (
           <div key={project.title} className="gap-x-8 gap-y-12 lg:gap-y-24 grid grid-cols-1 lg:grid-cols-2 mt-12 mb-24 ">
-            <div className="border-2 border-gray-300">
-              <img alt={project.imageDescription} src={project.image} />
+            <div >
+              <img className="border-2 border-gray-300 mb-2" alt={project.imageDescription} src={project.imageFirst} />
+              <img className="border-2 border-gray-300" alt={project.imageDescription} src={project.imageSecond} />
             </div>
             <div>
               <h1 className="font-medium mb-6 text-4xl">{project.title}</h1>

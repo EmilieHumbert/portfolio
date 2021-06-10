@@ -6,7 +6,8 @@ export default function Projects() {
   const projects = [
     {
       title: "Villa les Pieds Rouges",
-      image: "/images/villa-les-pieds-rouges-homepage.png",
+      imageFirst: "/images/villa-les-pieds-rouges-homepage.png",
+      imageSecond: "/images/villa-les-pieds-rouges-plans.png",
       imageDescription: "Villa les Pieds Rouges homepage",
       decription:
         "Responsive bilingual website presenting luxurious holiday home in south of France with image gallerie and contact form.",
@@ -21,7 +22,8 @@ export default function Projects() {
     },
     {
       title: "Instagram clone",
-      image: "/images/instagram-login.png",
+      imageFirst: "/images/instagram-login.png",
+      imageSecond: "/images/instagram-dashboard.png",
       imageDescription: "Instagram clone",
       decription:
         "Instagram clone using firebase and firestore for login, signin and images storage",
