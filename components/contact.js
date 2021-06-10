@@ -1,10 +1,11 @@
 import React from "react";
 
 export default function Contact() {
-
   return (
     <>
-      <h1 className="font-medium mt-24 text-4xl mb-4">Want t<span className="text-red-900">o</span> get in touch?</h1>
+      <h1 className="font-medium mt-24 text-4xl mb-4">
+        Want t<span className="text-red-900">o</span> get in touch?
+      </h1>
       <p>
         If you'd like to get in touch you can connect with me on{" "}
         <a
@@ -65,6 +66,7 @@ export default function Contact() {
               ></textarea>
             </div>
             <div className="col-span-2 flex items-center justify-center">
+              <input type="hidden" name="form-name" value="contact" />
               <button
                 className="border-2 border-gray-300 cursor-pointer hover:bg-gray-100 px-4 py-2 rounded "
                 type="submit"
