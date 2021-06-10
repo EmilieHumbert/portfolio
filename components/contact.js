@@ -1,10 +1,6 @@
 import React from "react";
-import { useForm } from "react-hook-form";
 
 export default function Contact() {
-  const { handleSubmit } = useForm();
-
-  const onSubmit = (data) => console.log(data);
 
   return (
     <>
@@ -33,7 +29,7 @@ export default function Contact() {
         .
       </p>
       <div>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form name="contact" method="POST" data-netlify="true">
           <div className="grid grid-cols-2 gap-x-6 mt-12">
             <div className="mb-6">
               <input
