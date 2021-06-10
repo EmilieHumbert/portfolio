@@ -1,7 +1,6 @@
 import React from "react";
 
-import Project from "../components/project";
-import Navigation from "../components/navigation";
+import Project from "./project";
 
 export default function Projects() {
   const projects = [
@@ -36,11 +35,9 @@ export default function Projects() {
   ];
 
   return (
-    <div className="flex justify-center mx-2">
-      <div className="mt-6 w-full sm:w-4/5">
-        <Navigation />
-        <Project projects={projects} />
-      </div>
+    <div>
+      <h1 className="font-medium mt-24 text-4xl">Projects</h1>
+      <Project projects={projects} />
     </div>
   );
 }
