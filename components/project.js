@@ -5,8 +5,8 @@ export default function Project({ projects }) {
     <>
       {projects.map((project) => {
         return (
-          <div className="gap-x-8 gap-y-12 lg:gap-y-24 grid grid-cols-1 lg:grid-cols-2 my-24 ">
-            <div key={project.title} className="border-2 border-gray-300">
+          <div key={project.title} className="gap-x-8 gap-y-12 lg:gap-y-24 grid grid-cols-1 lg:grid-cols-2 mt-12 mb-24 ">
+            <div className="border-2 border-gray-300">
               <img alt={project.imageDescription} src={project.image} />
             </div>
             <div>
@@ -21,7 +21,7 @@ export default function Project({ projects }) {
               <div className="grid grid-cols-2">
                 {project.tools.map(([type, tool]) => {
                   return (
-                    <ul className="leading-relaxed text-xs">
+                    <ul key={type} className="leading-relaxed text-xs">
                       <li>
                         <strong>{type}:</strong> {tool}
                       </li>
