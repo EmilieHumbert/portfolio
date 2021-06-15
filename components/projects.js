@@ -43,7 +43,7 @@ export default function Projects() {
   return (
     <div>
       <h1 className="font-medium mt-24 mb-6 text-4xl">
-        Proj<span className="text-red-900">e</span>cts
+        Projects
       </h1>
       <p className="text-xl">Find below my latest projects:</p>
       <Project projects={projects} />
