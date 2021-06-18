@@ -10,7 +10,7 @@ export default function Projects() {
       imageSecond: "/images/villa-les-pieds-rouges-plans.png",
       imageDescription: "Villa les Pieds Rouges homepage",
       decription:
-        "Responsive bilingual website presenting luxurious holiday home in south of France. This Next.js website has multiple pages: home, gallery, plans(to view a plan and description for each floor), about, location and contact. The contact form was made using react-hook-form, axios and Sendgrid and the website was deplay to Vercel",
+        "Responsive bilingual website presenting luxurious holiday home in south of France. This Next.js website has multiple pages: home, gallery, plans (to view a plan and description for each floor), about, location and contact. The contact form was made using react-hook-form, axios and Sendgrid and the website was deployed to Vercel",
       tools: [
         ["Framework", "Next.js"],
         ["Deployment", "Vercel"],
@@ -42,9 +42,7 @@ export default function Projects() {
 
   return (
     <div>
-      <h1 className="font-medium mt-24 mb-6 text-4xl">
-        Projects
-      </h1>
+      <h1 className="font-medium mt-24 mb-6 text-4xl">Projects</h1>
       <p className="text-xl">Find below my latest projects:</p>
       <Project projects={projects} />
     </div>
