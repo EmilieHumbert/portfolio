@@ -3,29 +3,24 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <h1 className="font-medium mt-24 text-4xl mb-4">
-        Want to get in touch?
-      </h1>
+      <h1 className="font-medium mt-24 text-4xl mb-4">Want to get in touch?</h1>
       <p>
         If you'd like to get in touch you can connect with me on{" "}
         <a
           href="https://www.linkedin.com/in/emilie-humbert-58443376/"
           target="_blank"
+          className="border-b-2 cursor-pointer hover:text-gray-500"
         >
-          <img
-            className="h-6 inline w-6"
-            src="/images/linkedin.svg"
-            alt="LinkedIn logo"
-          />
+          Linkedin
         </a>{" "}
         or send me a message using the contact form below. You can also see what
         I've been up to on{" "}
-        <a href="https://github.com/EmilieHumbert" target="_blank">
-          <img
-            className="h-6 inline w-6"
-            src="/images/github.svg"
-            alt="Github logo"
-          />
+        <a
+          href="https://github.com/EmilieHumbert"
+          target="_blank"
+          className="border-b-2 cursor-pointer hover:text-gray-500"
+        >
+          Github
         </a>
         .
       </p>
