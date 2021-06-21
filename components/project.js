@@ -8,17 +8,10 @@ export default function Project({ projects }) {
           <div key={project.title} className="gap-x-8 gap-y-12 lg:gap-y-24 grid grid-cols-1 lg:grid-cols-2 mt-12 mb-24 ">
             <div >
               <img className="border-2 border-gray-300 mb-2" alt={project.imageDescription} src={project.imageFirst} />
-              <img className="border-2 border-gray-300" alt={project.imageDescription} src={project.imageSecond} />
             </div>
             <div>
               <h1 className="font-medium mb-6 text-4xl">{project.title}</h1>
-              <h2 className="border-b-2 border-gray-300 font-medium my-2 text-xl ">
-                Brief decription
-              </h2>
               <p className="mb-6">{project.decription}</p>
-              <h2 className="border-b-2 border-gray-300 font-medium my-2 text-xl">
-                Tools used and website features
-              </h2>
               <div className="grid grid-cols-2">
                 {project.tools.map(([type, tool]) => {
                   return (
