@@ -19,6 +19,7 @@ export default function Projects() {
         ["Internationalisation", "react-i18n"],
       ],
       website: "https://villa-les-pieds-rouges.vercel.app/en",
+      github: "https://github.com/EmilieHumbert/villa-les-pieds-rouges",
     },
     {
       title: "Instagram clone",
@@ -35,6 +36,7 @@ export default function Projects() {
         ["Responsive", "yes"],
       ],
       website: "https://instagram-6lfl5gles-emiliehumbert.vercel.app/login",
+      github: "https://github.com/EmilieHumbert/instagram",
     },
   ];
 

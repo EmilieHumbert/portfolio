@@ -23,14 +23,22 @@ export default function Project({ projects }) {
                   );
                 })}
               </div>
-              <div className="my-8">
-                <a
-                  className="border-2 border-gray-300 cursor-pointer hover:text-gray-500 p-2 rounded"
-                  href={project.website}
-                  target="_blank"
-                >
-                  Visit website
-                </a>
+                <div className="grid grid-cols-2 gap-4 my-8">
+                  <a
+                    className="border-2 border-gray-300 cursor-pointer hover:text-gray-500 p-2 rounded-md flex items-center justify-center"
+                    href={project.website}
+                    target="_blank"
+                  >
+                    Visit website
+                  </a>
+                  <a
+                    className="border-2 border-gray-300 cursor-pointer hover:text-gray-500 p-2 rounded-md flex items-center justify-center"
+                    href={project.github}
+                    target="_blank"
+                  >
+                    View code
+                  </a>
+                </div>
               </div>
             </div>
           </div>
