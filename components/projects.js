@@ -15,8 +15,8 @@ export default function Projects() {
         ["Deployment", "Vercel"],
         ["Contact form", "Sendgrid"],
         ["Styling", "Tailwind"],
-        ["Responsive", "yes"],
         ["Internationalisation", "react-i18n"],
+        ["Responsive", "yes"],
       ],
       website: "https://villa-les-pieds-rouges.vercel.app/en",
       github: "https://github.com/EmilieHumbert/villa-les-pieds-rouges",
@@ -31,8 +31,8 @@ export default function Projects() {
         ["Framework", "Next.js"],
         ["Deployment", "Vercel"],
         ["Storage", "Firestore"],
-        ["Authentification", "Firebase"],
         ["Styling", "Tailwind"],
+        ["Authentification", "Firebase"],
         ["Responsive", "yes"],
       ],
       website: "https://instagram-6lfl5gles-emiliehumbert.vercel.app/login",
@@ -42,8 +42,8 @@ export default function Projects() {
 
   return (
     <div>
-      <h1 className="font-medium mt-24 mb-6 text-4xl">Projects</h1>
-      <p className="text-xl">Find below my latest projects:</p>
+      <h1 className="font-medium mt-24 mb-6 text-6xl">Projects</h1>
+      <p className="text-xl mb-12">Find below my latest projects:</p>
       <Project projects={projects} />
     </div>
   );

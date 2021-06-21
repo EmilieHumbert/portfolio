@@ -68,7 +68,7 @@ export default function Contact() {
             <div className="col-span-2 flex items-center justify-center">
               <input type="hidden" name="form-name" value="contact" />
               <button
-                className="border-2 border-gray-300 cursor-pointer hover:bg-gray-100 px-4 py-2 rounded "
+                className="border-2 border-gray-300 cursor-pointer hover:bg-gray-100 px-4 py-2 rounded-md"
                 type="submit"
               >
                 Send
