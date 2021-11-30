@@ -35,7 +35,7 @@ export default function Projects() {
         ["Authentification", "Firebase"],
         ["Responsive", "yes"],
       ],
-      website: "https://instagram-6lfl5gles-emiliehumbert.vercel.app/login",
+      website: "https://react-instaclone.vercel.app/login",
       github: "https://github.com/EmilieHumbert/instagram",
     },
   ];
