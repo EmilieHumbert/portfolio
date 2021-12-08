@@ -49,7 +49,7 @@ export default function Projects() {
         ["Responsive", "yes"],
         ["Storage", "Firestore"],
         ["Styling", "Tailwind"],
-        ["Authentification", "Firebase"],
+        ["Authentication", "Firebase"],
         ["Deployment", "Vercel"],
       ],
       website: "https://react-instaclone.vercel.app/login",
